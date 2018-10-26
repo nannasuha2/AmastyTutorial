@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HelloWorld",
+    "\\HelloWorld\\etc",
+    "\\HelloWorld\\etc\\adminhtml"
+  ],
+  "SelectedNode": "\\HelloWorld\\etc\\adminhtml\\system.xml",
+  "PreviewInSolutionExplorer": false
+}
