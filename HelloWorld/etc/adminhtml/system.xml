@@ -20,6 +20,7 @@
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0"
                    showInStore="0">
                 <label>General</label>
+
                 <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1"
                        showInWebsite="1" showInStore="1">
                     <label>Enable Hello World</label>
@@ -28,14 +29,18 @@
                         Comment for `Enable Hello World` setting.
                     </comment>
                 </field>
-                
+
+                <field id="block_label" translate="label" type="file" accept="image/*" sortOrder="20" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
                     <label>Block Label</label>
                 </field>
+
                 <field id="text_align" translate="label" type="select" sortOrder="30" showInDefault="1"
                        showInWebsite="1" showInStore="1">
                     <label>Text Align</label>
                     <source_model>Amasty\HelloWorld\Model\Source\Align</source_model>
                 </field>
+
             </group>
         </section>
     </system>

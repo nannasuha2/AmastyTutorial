@@ -3,17 +3,11 @@
  * @author Amasty Team
  * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com)
  * @package Amasty_HelloWorld
- <?=__('Hello World');?> **original
- <?php
-    echo "<img src='facebookBanner.png' alt='photo of facebook banner' />"; ** changed (Not work)
-	?>
-<img src="_includes/images/rainbowpony.png" alt="photo of facebook banner"/> ** changed (Not work)
+ *
  */
 ?>
 <div class="amasty-helloworld-block" style="text-align: <?= $this->getTextAlign()?>">
     <h3 class="label"><?= $this->getBlockLabel()?></h3>
-    <!--<img src="https://s3.amazonaws.com/freebiesupply/large/2x/google-logo-transparent.png"
-    alt="google logo" style="width:82px;height:30px;"/>-->
     <?=_('Hello World');?>
     <?php foreach($this->getCollection() as $item):?>
         <p><label><?= __("Title: ") . $item->getLabel()?></label> -- <label><?=  __("Value: ") . $item->getValue();?></label></p>
