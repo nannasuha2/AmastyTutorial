@@ -29,7 +29,7 @@ class InstallSchema implements InstallSchemaInterface
             )
             ->addColumn(
                 'label',
-                \Magento\Framework\DB\Ddl\Table::TYPE_BLOB,
+                \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 null,
                 ['default' => null, 'nullable' => false],
                 'Name'
@@ -40,6 +40,13 @@ class InstallSchema implements InstallSchemaInterface
                 null,
                 ['default' => null, 'nullable' => false],
                 'Stores'
+            )
+            ->addColumn(
+                'image_label',
+                \Magento\Framework\DB\Ddl\Table::TYPE_BLOB,
+                null,
+                ['default' => null, 'nullable' => false],
+                'Image'
             );
         $installer->getConnection()->createTable($table);
         $installer->endSetup();

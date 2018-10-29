@@ -30,7 +30,12 @@
                     </comment>
                 </field>
 
-                <field id="block_label" translate="label" type="file" accept="image/*" sortOrder="20" showInDefault="1"
+                <!--<field id="block_label" translate="label" type="file" accept="image/*" sortOrder="20" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Block Label</label>
+                </field>-->
+
+                <field id="image_label" translate="label" type="file" accept="image/*" sortOrder="20" showInDefault="1"
                        showInWebsite="1" showInStore="1">
                     <label>Block Label</label>
                 </field>
