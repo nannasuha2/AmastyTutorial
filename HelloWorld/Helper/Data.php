@@ -16,7 +16,6 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     CONST ENABLE      = 'amasty_helloworld/general/enable';
     CONST BLOCK_LABEL = 'amasty_helloworld/general/block_label';
     CONST TEXT_ALIGN  = 'amasty_helloworld/general/text_align';
-    CONST IMAGE_LABEL = 'amasty_helloworld/general/image_label';
 
     public function __construct(
         \Magento\Framework\App\Helper\Context $context,
@@ -37,10 +36,6 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
     public function getTextAlign(){
         return $this->_scopeConfig->getValue(self::TEXT_ALIGN);
-    }
-
-    public function getImageLabel(){
-        return $this->_scopeConfig->getValue(self::IMAGE_LABEL);
     }
 }
 

@@ -40,13 +40,6 @@ class InstallSchema implements InstallSchemaInterface
                 null,
                 ['default' => null, 'nullable' => false],
                 'Stores'
-            )
-            ->addColumn(
-                'image_label',
-                \Magento\Framework\DB\Ddl\Table::TYPE_BLOB,
-                null,
-                ['default' => null, 'nullable' => false],
-                'Image'
             );
         $installer->getConnection()->createTable($table);
         $installer->endSetup();
