@@ -11,8 +11,8 @@
         <amasty_helloworld>
             <general>
                 <enable>1</enable>
-                <block_label>Test Block Label</block_label>
-                <text_align>center</text_align>
+                <block_label></block_label>
+                <text_align>left</text_align>
             </general>
         </amasty_helloworld>
     </default>
