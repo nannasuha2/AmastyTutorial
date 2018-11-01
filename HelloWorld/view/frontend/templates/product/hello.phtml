@@ -7,7 +7,6 @@
 ?>
 <div class="amasty-helloworld-block" style="text-align: <?= $this->getTextAlign()?>">
     <?= $this->getBlockLabel()?>
-    <?=__('Hello World');?>
     <?php foreach($this->getCollection() as $item):?>
         <p><label><?= __("Title: ") . $item->getLabel()?></label> -- <label><?=  __("Value: ") . $item->getValue();?></label></p>
     <?php endforeach;?>
