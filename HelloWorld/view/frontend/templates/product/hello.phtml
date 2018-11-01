@@ -6,7 +6,8 @@
  */
 ?>
 <div class="amasty-helloworld-block" style="text-align: <?= $this->getTextAlign()?>">
-    <?= $this->getBlockLabel()?>
+    <!--<img src="data:image/jpeg;base64,'.base64_encode(<?//= $this->getBlockLabel()?> ).'" height="50"/>-->
+    <img src="<?= $this->getBlockLabel()?>" height="50"/>
     <?php foreach($this->getCollection() as $item):?>
         <p><label><?= __("Title: ") . $item->getLabel()?></label> -- <label><?=  __("Value: ") . $item->getValue();?></label></p>
     <?php endforeach;?>

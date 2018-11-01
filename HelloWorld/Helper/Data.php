@@ -32,6 +32,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
     public function getBlockLabel(){
         return $this->_scopeConfig->getValue(self::BLOCK_LABEL);
+
     }
 
     public function getTextAlign(){

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!--
 /**
  * @author Amasty Team
@@ -11,7 +11,8 @@
         <amasty_helloworld>
             <general>
                 <enable>1</enable>
-                <block_label></block_label>
+                <block_label>
+                </block_label>
                 <text_align>left</text_align>
             </general>
         </amasty_helloworld>
