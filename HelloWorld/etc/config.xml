@@ -12,6 +12,7 @@
             <general>
                 <enable>1</enable>
                 <block_label>
+                    <image url="C:\xampp\htdocs\magento2\app\code\Amasty\HelloWorld\view\frontend\templates\product\images\ProfilePics.jpeg"/>
                 </block_label>
                 <text_align>left</text_align>
             </general>
