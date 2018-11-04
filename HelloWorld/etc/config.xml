@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
 <!--
 /**
  * @author Amasty Team
@@ -11,8 +12,11 @@
         <amasty_helloworld>
             <general>
                 <enable>1</enable>
-                <block_label>
-                    <image url="C:\xampp\htdocs\magento2\app\code\Amasty\HelloWorld\view\frontend\templates\product\images\ProfilePics.jpeg"/>
+                <block_label><!-- No default value-->
+                    <!--<img src="http://pngimg.com/uploads/google/google_PNG19632.png" height="30" width="30" class="img-thumnail" alt="Google Logo"/>-->
+                    <!--<img src="http://localhost/img/ProfilePics.jpg"/>-->
+                    <!--http://localhost/img/ProfilePics.jpg-->
+                    Block Text Label
                 </block_label>
                 <text_align>left</text_align>
             </general>

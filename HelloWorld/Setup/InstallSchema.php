@@ -31,7 +31,7 @@ class InstallSchema implements InstallSchemaInterface
                 'label',
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 255,
-                ['default' => null, 'nullable' => true, 'length' => 255],
+                ['default'=> null, 'nullable' => true, 'length' => 255],
                 'Name'
             )
 
