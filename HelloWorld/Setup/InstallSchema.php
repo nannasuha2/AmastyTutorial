@@ -29,11 +29,12 @@ class InstallSchema implements InstallSchemaInterface
             )
             ->addColumn(
                 'label',
-                \Magento\Framework\DB\Ddl\Table::TYPE_BLOB,
-                null,
-                ['default' => null, 'nullable' => false],
+                \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+                255,
+                ['default' => null, 'nullable' => true, 'length' => 255],
                 'Name'
             )
+
             ->addColumn(
                 'value',
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
