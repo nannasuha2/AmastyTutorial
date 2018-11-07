@@ -4,13 +4,10 @@
  * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com)
  * @package Amasty_HelloWorld
  */
+//$xml=simplexml_load_file("config.xml") or die("Error: Cannot create object");
 ?>
 <div class="amasty-helloworld-block" style="text-align: <?= $this->getTextAlign()?>">
-    <!--<img src="data:image/jpeg;base64,'.base64_encode(<?//= _($this->getBlockLabel())?> ).'" height="50"/>-->
-    <!--<img src="<?//=_($this->getBlockLabel())?> " height="30" width="30" class="img-thumnail" alt="image label"/>-->
-    <!--<img src="http://pngimg.com/uploads/google/google_PNG19632.png" height="30" width="30" class="img-thumnail" alt="Google Logo"/>-->
-    <!--<img src="http://localhost/img/ProfilePics.jpg" height="30" width="30" class="img-thumnail" alt="Google Logo"/>-->
-    <?=_($this->getBlockLabel())?>
+    <img src="http://localhost/magento2/uploadImages/<?= $this->getBlockLabel()?>" height="30" alt="image label"/>
     <?php foreach($this->getCollection() as $item):?>
         <p><label><?= __("Title: ") . $item->getLabel()?></label> -- <label><?=  __("Value: ") . $item->getValue();?></label></p>
     <?php endforeach;?>

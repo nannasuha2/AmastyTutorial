@@ -17,7 +17,6 @@
                     <!--<img src="http://pngimg.com/uploads/google/google_PNG19632.png" height="30" width="30" class="img-thumnail" alt="Google Logo"/>-->
                     <!--<img src="http://localhost/img/ProfilePics.jpg"/>-->
                     <!--http://localhost/img/ProfilePics.jpg-->
-                    Block Text Label
                 </block_label>
                 <text_align>left</text_align>
             </general>
