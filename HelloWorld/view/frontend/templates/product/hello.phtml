@@ -4,10 +4,9 @@
  * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com)
  * @package Amasty_HelloWorld
  */
-//$xml=simplexml_load_file("config.xml") or die("Error: Cannot create object");
 ?>
 <div class="amasty-helloworld-block" style="text-align: <?= $this->getTextAlign()?>">
-    <img src="http://localhost/magento2/uploadImages/<?= $this->getBlockLabel()?>" height="30" alt="image label"/>
+    <img src="http://localhost/magento2/uploadImages/<?= $this->getBlockLabel()?>" style="width:80px;height:80px;" alt="image label"/>
     <?php foreach($this->getCollection() as $item):?>
         <p><label><?= __("Title: ") . $item->getLabel()?></label> -- <label><?=  __("Value: ") . $item->getValue();?></label></p>
     <?php endforeach;?>
