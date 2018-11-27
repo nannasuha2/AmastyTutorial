@@ -31,7 +31,7 @@
                     </comment>
                 </field>
 
-                <field id="block_label" translate="label" type="image" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="block_label" translate="label" type="Magento\Config\Block\System\Config\Form\Field\Image" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Block Label</label>
                     <backend_model>Magento\Config\Model\Config\Backend\Image</backend_model>
                     <upload_dir>uploadImages</upload_dir>
