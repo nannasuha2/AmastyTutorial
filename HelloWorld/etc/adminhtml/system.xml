@@ -34,8 +34,8 @@
                 <field id="block_label" translate="label" type="Magento\Config\Block\System\Config\Form\Field\Image" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Block Label</label>
                     <backend_model>Magento\Config\Model\Config\Backend\Image</backend_model>
-                    <upload_dir>uploadImages</upload_dir>
-                    <!--<base_url type="media" scope_info="1">uploadImages</base_url>-->
+                    <upload_dir config="system/filesystem/media" scope_info="1">uploadImages</upload_dir>
+                    <base_url type="media" scope_info="1">uploadImages</base_url>
                     <comment>Allowed file types: jpg, jpeg, gif, png</comment>
                 </field>
 

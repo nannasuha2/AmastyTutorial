@@ -6,7 +6,7 @@
  */
 ?>
 <div class="amasty-helloworld-block" style="text-align: <?= $this->getTextAlign()?>">
-    <img src="http://localhost/magento2/uploadImages/<?= $this->getBlockLabel();?>" style="height:80px;" alt="image label"/>
+    <img src="http://localhost/magento2/pub/media/uploadImages/<?= $this->getBlockLabel();?>" style="height:80px;" alt="image label"/>
     <?php foreach($this->getCollection() as $item):?>
         <p><label><?= __("Title: ") . $item->getLabel()?></label> -- <label><?=  __("Value: ") . $item->getValue();?></label></p>
     <?php endforeach;?>
